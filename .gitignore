@@ -162,3 +162,5 @@ finetune/logs/
 *.onnx
 *.h5
 *.safetensors
+# personal configs
+finetune/configs/local/

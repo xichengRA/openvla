@@ -1,0 +1,18 @@
+vla_path: "openvla/openvla-7b"
+nnodes: 1
+nproc_per_node: 1
+
+data_root_dir: "/ABS/PATH/TO/datasets"         # 例：/home/ubuntu/my_projects/datasets
+dataset_name: "bridge_orig"
+run_root_dir: "/ABS/PATH/TO/runs/bridge_lora"   # 例：/home/ubuntu/my_projects/runs/bridge_lora
+adapter_tmp_dir: "/ABS/PATH/TO/runs/bridge_lora/adapters"
+
+lora_rank: 32
+batch_size: 8
+grad_accumulation_steps: 2
+learning_rate: 5e-4
+image_aug: true
+save_steps: 500
+
+wandb_project:
+wandb_entity:
