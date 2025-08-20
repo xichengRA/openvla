@@ -151,3 +151,14 @@ data/
 # Rollout videos and wandb logs
 rollouts/
 wandb/
+
+# ===== finetune outputs & large artifacts =====
+finetune/data/
+finetune/checkpoints/
+finetune/logs/
+*.pt
+*.bin
+*.ckpt
+*.onnx
+*.h5
+*.safetensors
